@@ -43,6 +43,14 @@
             <version>1.7.26</version>
         </dependency>
 
+        <!--fastjson安全版本-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.71</version>
+        </dependency>
+
+
     </dependencies>
 
 
