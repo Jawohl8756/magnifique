@@ -8,6 +8,14 @@
     <artifactId>BastanteBien</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <!--SpringBoot大版本-->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.4.RELEASE</version>
+    </parent>
+
     <modules>
         <module>Algorithm</module>
         <module>DataStructure</module>
@@ -16,9 +24,18 @@
         <module>JavaSE_Base</module>
         <module>GeekerTime</module>
         <module>LaGogogo</module>
+        <module>leetcoderr</module>
+        <module>SpringBootIntro</module>
+        <module>StudentIO</module>
     </modules>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

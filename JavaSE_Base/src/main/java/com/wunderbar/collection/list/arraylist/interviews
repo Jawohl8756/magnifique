@@ -1,0 +1,6 @@
+1.new ArrayList()，底层new的是什么啊？
+new Object[]，新建的是一个对象数组。
+
+2.ArrayList的add(int index)和set(int index)方法，都有向List加元素的功能，有什么区别？
+add在下角标加元素，会先检查数组越界，会让原来的元素后移，整个数组长度size++
+set在下角标加元素，会先检查数组越界，会直接在原来的元素上替换并update，整个数组长度size不变，并返回旧值。
